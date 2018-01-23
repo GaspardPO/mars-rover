@@ -1,0 +1,19 @@
+Écrire une API permettant de déplacer un robot sur une grille.
+
+On vous donne :
+le point de départ (x, y) du robot
+sa direction initiale (N, S, E, W)
+puis une suite de caractères décrivant les actions à effectuer
+F : forward
+B : Backward
+L : turn left
+R : turn right
+
+
+Bonus :
+monde rond,
+gestion des obstacles
+
+
+EXEMPLE
+Un robot situé à (0, 0) et orienté vers le Nord sur une grille de 100x100 se retrouvera en (2, 2) et orienté vers l'Est si on lui transmet les commandes "ffrff"
